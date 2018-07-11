@@ -1,19 +1,37 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Roll {
     public static void main(String[] args) {
         //introducing the program to a user with an overview of purpose and expected output
-        String greeting = "Welcome to this pluralize Java program \nthat will pluralize the animal type \nif there is 0 or more than 1.\n";
+        String greeting = "Welcome to this roll the dice Java program \nthat will roll a 6-sided dice the number of times\nand produce an array with each roll result.\n";
         System.out.println(greeting);
+        //call the  roll function with roll value to be sure method works as expected
+        roll(10);
     }
-    public static void roll(int n){
-        //establish the number of rolls with the value of "n"
-        //test cases to comment in or out to run  program and be sure program works as expected
-        int numberofRolls = 2;
-        List<Integer> rollReturns = new List<Integer>() {
+    public static List<Integer> roll(int n){
 
-        }
+        //create an array to populate with roll values
+        List<Integer> rollReturns = new ArrayList<>();
 
+            //keeps track of the number of rolls for the while loop
+            int rollCount =0;
+
+            //this while loop uses the helper function "rollHelper" to generate random dice number results
+            while (rollCount < n){
+                rollReturns.add(rollHelper());
+                  //used this to test how the list was being populated with each roll
+//                System.out.println(rollReturns);
+
+                // increments the count of rolls to keep the loop going while the conditional statement is true
+                rollCount++;
+            }
+
+        System.out.println(rollReturns);
+        return rollReturns;
     }
-    public static void rollHelper(int r){
+    public static int rollHelper(){
+
+       return ((int)(Math.random()*6)+1);
+    }
 }

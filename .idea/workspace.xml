@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4f55696e-a08c-4485-9ff6-7a56495bafa6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab 2/Roll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab 2/Roll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculatingAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatingAverages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContainsDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContainsDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Roll.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +24,8 @@
       <file leaf-file-name="Roll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Roll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="30" column="158" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="158" />
+            <state relative-caret-position="508">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="158" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainsDuplicates.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContainsDuplicates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ContainsDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="120">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatingAverages.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalculatingAverages.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CalculatingAverages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="384">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -94,9 +97,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ArraysArrays.java" />
-        <option value="$PROJECT_DIR$/src/Roll.java" />
         <option value="$PROJECT_DIR$/src/ContainsDupicates.java" />
+        <option value="$PROJECT_DIR$/src/Roll.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/CalculatingAverages.java" />
       </list>
     </option>
   </component>
@@ -136,6 +140,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sooz/codefellows/401Java/Labs/02-java-collections-arrays-lists-sets-maps/src/ContainsDuplicates.java" />
     <property name="create.test.in.the.same.root" value="true" />
   </component>
   <component name="RunDashboard">
@@ -150,7 +155,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicates">
+  <component name="RunManager" selected="Application.CalculatingAverages">
+    <configuration name="CalculatingAverages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatingAverages" />
+      <module name="Lab 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="ContainsDupicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContainsDupicates" />
       <module name="Lab 2" />
@@ -211,9 +221,11 @@
       <item itemvalue="Application.Roll" />
       <item itemvalue="Application.ContainsDupicates" />
       <item itemvalue="Application.ContainsDuplicates" />
+      <item itemvalue="Application.CalculatingAverages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatingAverages" />
         <item itemvalue="Application.ContainsDuplicates" />
         <item itemvalue="Application.ContainsDupicates" />
       </list>
@@ -234,6 +246,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1351" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -243,7 +256,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -255,7 +268,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997175" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,14 +283,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ContainsDuplicates.java</url>
-          <line>19</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -425,23 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Roll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="30" column="158" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="158" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculatingAverages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -463,13 +452,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContainsDuplicates.java">
+    <entry file="file://$PROJECT_DIR$/src/Roll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="508">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="158" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContainsDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalculatingAverages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
         </state>
       </provider>
     </entry>

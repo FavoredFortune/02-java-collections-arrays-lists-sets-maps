@@ -13,6 +13,7 @@ public class ContainsDuplicates {
 
         //change array variable in the method invocation below to test for both true and false outcomes
         duplicates(array2);
+
     }
     public static boolean duplicates(int[] array){
         boolean answer = false;

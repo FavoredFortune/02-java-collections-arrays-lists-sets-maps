@@ -7,7 +7,7 @@ public class Roll {
         String greeting = "Welcome to this roll the dice Java program \nthat will roll a 6-sided dice the number of times\nand produce an array with each roll result.\n";
         System.out.println(greeting);
         //call the  roll function with roll value to be sure method works as expected
-        roll(7);
+        roll(30);
     }
     public static List<Integer> roll(int n){
 

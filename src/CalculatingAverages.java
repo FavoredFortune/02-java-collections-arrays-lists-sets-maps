@@ -11,8 +11,7 @@ public class CalculatingAverages {
         int[] array1 = {1, 2, 3, 7}; //expected answer is 2.5
         int[] array2 = {22,11,23}; //expected answer is 28
 
-        //change array variable in the method invocation below to test for different results
-
+        //change array variable in the method invocation below, as well as println to test for different results
         System.out.println("The array that will be used to calculate the average value of all elements (known to be " +
                 "positive) is: \n" + Arrays.toString(array2) + "\n");
 
@@ -28,8 +27,8 @@ public class CalculatingAverages {
             //adding one element from the array to the rest
             totalValue += array[index];
 
-//            test totaling
-//            System.out.println(totalValue);
+            //test totaling
+//          System.out.println(totalValue);
         }
         averageValue = totalValue/arraySize;
 

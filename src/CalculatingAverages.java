@@ -32,10 +32,13 @@ public class CalculatingAverages {
         }
         averageValue = totalValue/arraySize;
 
-        System.out.println("The average of the values stored in the array is: \n" + averageValue + "\n") ;
 
-        System.out.println("NOTE: When this method works, the last thing you'll see is \n \"Process finished with " +
-                "exit  code 0\" (because 0 = true in JAVA).");
+        // NOTE TURN THIS PrintLn ON TO SEE FUNCTION RETURN AVERAGEVALUE (currently turned off to be used as helper
+        //  function in ArraysArrays, which loops through this method several times.
+//        System.out.println("The average of the values stored in the array is: \n" + averageValue + "\n") ;
+
+//        System.out.println("NOTE: When this method works, the last thing you'll see is \n \"Process finished with " +
+//                "exit  code 0\" (because 0 = true in JAVA).");
         return averageValue;
 
     }

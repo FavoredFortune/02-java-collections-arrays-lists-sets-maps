@@ -7,7 +7,7 @@ public class Roll {
         String greeting = "Welcome to this roll the dice Java program \nthat will roll a 6-sided dice the number of times\nand produce an array with each roll result.\n";
         System.out.println(greeting);
         //call the  roll function with roll value to be sure method works as expected
-        roll(10);
+        roll(30);
     }
     public static List<Integer> roll(int n){
 
@@ -26,9 +26,11 @@ public class Roll {
                 // increments the count of rolls to keep the loop going while the conditional statement is true
                 rollCount++;
             }
-
-        System.out.println(rollReturns);
+        System.out.println("Here is the array of roll values for " + n + " rolls:");
+        System.out.println(rollReturns) ;
+        System.out.println("NOTE: When this method works, the last thing you'll see is \n \"Process finished with exit code 0\" (because 0 = true in JAVA).");
         return rollReturns;
+
     }
     public static int rollHelper(){
 

@@ -13,6 +13,9 @@ public class ArraysArraysTest {
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
-        float expected
+        float expected = 57;
+        float actual = ArraysArrays.lowestArrayAverage(weeklyMonthTemperatures);
+
+        assertEquals(expected,actual,0);
     }
 }
